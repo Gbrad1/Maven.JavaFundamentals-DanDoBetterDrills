@@ -138,7 +138,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Short divide(short dividend, short divisor) {
-        return null;
+        Short temp = (short) (dividend / divisor);
+        return temp;
     }
 
     /**
@@ -147,7 +148,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Byte divide(byte dividend, byte divisor) {
-        return null;
+        Byte temp = (byte) (dividend / divisor);
+        return temp;
     }
 
     /**
@@ -193,7 +195,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Short multiply(short multiplicand, short multiplier) {
-        return null;
+        Short temp = (short) (multiplicand / multiplier);
+        return temp;
     }
     /**
      * @param multiplicand value to be multiplied
@@ -201,7 +204,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Byte multiply(byte multiplicand, byte multiplier) {
-        return null;
+        Byte temp = (byte) (multiplicand * multiplier);
+        return temp;
     }
 
     /**
